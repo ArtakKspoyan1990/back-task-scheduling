@@ -91,13 +91,12 @@ php artisan key:generate
   
   Start Docker containers
 ```bash
-php artisan migrate --seed
+docker-compose up -d
  ```
  
  Enter the app container to run migrations and seeders
  
  ```bash
- docker exec -it task_app bash
 docker exec -it task_app bash
 php artisan migrate --seed
   ```
