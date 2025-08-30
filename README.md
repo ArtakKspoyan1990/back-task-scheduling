@@ -26,7 +26,7 @@ This is the **backend API** for the Task Scheduler project. It handles user auth
 
 ## Installation
 
- Clone the repo:
+ Clone the repo: https://github.com/ArtakKspoyan1990/back-task-scheduling.git
 
 ```bash
 git clone <backend-repo-url> backend
